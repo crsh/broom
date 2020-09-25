@@ -182,6 +182,7 @@ tidy_emmeans_summary <- function(x, null.value = NULL, term_names = NULL) {
     "lsmean" = "estimate",
     "emmean" = "estimate",
     "pmmean" = "estimate",
+    "effect.size" = "estimate",
     "prediction" = "estimate",
     "SE" = "std.error",
     "lower.CL" = "conf.low",
